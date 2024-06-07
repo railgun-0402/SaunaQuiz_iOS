@@ -13,6 +13,15 @@
 		0B2C7C3D2C12AD5700A1A593 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0B2C7C3C2C12AD5700A1A593 /* Base */; };
 		0B2C7C3F2C12AD5900A1A593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2C7C3E2C12AD5900A1A593 /* Assets.xcassets */; };
 		0B2C7C422C12AD5900A1A593 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0B2C7C412C12AD5900A1A593 /* Base */; };
+		0B6552CD2C12B37A00DA4BA5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6552CC2C12B37A00DA4BA5 /* QuizViewController.swift */; };
+		0B6552CF2C12B44000DA4BA5 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6552CE2C12B44000DA4BA5 /* ScoreViewController.swift */; };
+		0B6552D12C12CAB000DA4BA5 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0B6552D02C12CAB000DA4BA5 /* quiz1.csv */; };
+		0B6552D42C12DE1600DA4BA5 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6552D22C12DE1600DA4BA5 /* correct.png */; };
+		0B6552D52C12DE1600DA4BA5 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6552D32C12DE1600DA4BA5 /* incorrect.png */; };
+		0B6552D72C12E7EB00DA4BA5 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6552D62C12E7EB00DA4BA5 /* SelectLevelViewController.swift */; };
+		0B6552D92C12EB7500DA4BA5 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0B6552D82C12EB7500DA4BA5 /* quiz2.csv */; };
+		0B6552DB2C12EB9000DA4BA5 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0B6552DA2C12EB9000DA4BA5 /* quiz3.csv */; };
+		4C4E8519FA19448B162AC9F5 /* Pods_SaunaQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4D807F327F0E101B4C05CD /* Pods_SaunaQuiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,17 @@
 		0B2C7C3E2C12AD5900A1A593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2C7C412C12AD5900A1A593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2C7C432C12AD5900A1A593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B6552CC2C12B37A00DA4BA5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		0B6552CE2C12B44000DA4BA5 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		0B6552D02C12CAB000DA4BA5 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		0B6552D22C12DE1600DA4BA5 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		0B6552D32C12DE1600DA4BA5 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		0B6552D62C12E7EB00DA4BA5 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		0B6552D82C12EB7500DA4BA5 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		0B6552DA2C12EB9000DA4BA5 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		204680882DD56E1D1C27F995 /* Pods-SaunaQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaunaQuiz.release.xcconfig"; path = "Target Support Files/Pods-SaunaQuiz/Pods-SaunaQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		BD4A17613A3795E4AAA42B6E /* Pods-SaunaQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaunaQuiz.debug.xcconfig"; path = "Target Support Files/Pods-SaunaQuiz/Pods-SaunaQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4D807F327F0E101B4C05CD /* Pods_SaunaQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaunaQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4E8519FA19448B162AC9F5 /* Pods_SaunaQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				0B2C7C342C12AD5700A1A593 /* SaunaQuiz */,
 				0B2C7C332C12AD5700A1A593 /* Products */,
+				EB1446310CB02D9B399E9280 /* Pods */,
+				9D414233976F9E0B7672D10F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,40 @@
 		0B2C7C342C12AD5700A1A593 /* SaunaQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				0B6552D02C12CAB000DA4BA5 /* quiz1.csv */,
+				0B6552D82C12EB7500DA4BA5 /* quiz2.csv */,
+				0B6552DA2C12EB9000DA4BA5 /* quiz3.csv */,
 				0B2C7C352C12AD5700A1A593 /* AppDelegate.swift */,
 				0B2C7C372C12AD5700A1A593 /* SceneDelegate.swift */,
 				0B2C7C392C12AD5700A1A593 /* ViewController.swift */,
 				0B2C7C3B2C12AD5700A1A593 /* Main.storyboard */,
+				0B6552CE2C12B44000DA4BA5 /* ScoreViewController.swift */,
+				0B6552D62C12E7EB00DA4BA5 /* SelectLevelViewController.swift */,
+				0B6552CC2C12B37A00DA4BA5 /* QuizViewController.swift */,
 				0B2C7C3E2C12AD5900A1A593 /* Assets.xcassets */,
 				0B2C7C402C12AD5900A1A593 /* LaunchScreen.storyboard */,
 				0B2C7C432C12AD5900A1A593 /* Info.plist */,
+				0B6552D22C12DE1600DA4BA5 /* correct.png */,
+				0B6552D32C12DE1600DA4BA5 /* incorrect.png */,
 			);
 			path = SaunaQuiz;
+			sourceTree = "<group>";
+		};
+		9D414233976F9E0B7672D10F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D807F327F0E101B4C05CD /* Pods_SaunaQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB1446310CB02D9B399E9280 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A17613A3795E4AAA42B6E /* Pods-SaunaQuiz.debug.xcconfig */,
+				204680882DD56E1D1C27F995 /* Pods-SaunaQuiz.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B2C7C462C12AD5900A1A593 /* Build configuration list for PBXNativeTarget "SaunaQuiz" */;
 			buildPhases = (
+				D7A3EC823F774A55DDD7D643 /* [CP] Check Pods Manifest.lock */,
 				0B2C7C2E2C12AD5700A1A593 /* Sources */,
 				0B2C7C2F2C12AD5700A1A593 /* Frameworks */,
 				0B2C7C302C12AD5700A1A593 /* Resources */,
+				6EEDB2BF521903C9265C0EC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,13 +175,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6552D92C12EB7500DA4BA5 /* quiz2.csv in Resources */,
+				0B6552D42C12DE1600DA4BA5 /* correct.png in Resources */,
+				0B6552D52C12DE1600DA4BA5 /* incorrect.png in Resources */,
 				0B2C7C3F2C12AD5900A1A593 /* Assets.xcassets in Resources */,
 				0B2C7C422C12AD5900A1A593 /* Base in Resources */,
 				0B2C7C3D2C12AD5700A1A593 /* Base in Resources */,
+				0B6552D12C12CAB000DA4BA5 /* quiz1.csv in Resources */,
+				0B6552DB2C12EB9000DA4BA5 /* quiz3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EEDB2BF521903C9265C0EC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaunaQuiz/Pods-SaunaQuiz-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaunaQuiz/Pods-SaunaQuiz-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaunaQuiz/Pods-SaunaQuiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A3EC823F774A55DDD7D643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaunaQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B2C7C2E2C12AD5700A1A593 /* Sources */ = {
@@ -140,7 +237,10 @@
 			files = (
 				0B2C7C3A2C12AD5700A1A593 /* ViewController.swift in Sources */,
 				0B2C7C362C12AD5700A1A593 /* AppDelegate.swift in Sources */,
+				0B6552CF2C12B44000DA4BA5 /* ScoreViewController.swift in Sources */,
 				0B2C7C382C12AD5700A1A593 /* SceneDelegate.swift in Sources */,
+				0B6552CD2C12B37A00DA4BA5 /* QuizViewController.swift in Sources */,
+				0B6552D72C12E7EB00DA4BA5 /* SelectLevelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +387,14 @@
 		};
 		0B2C7C472C12AD5900A1A593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4A17613A3795E4AAA42B6E /* Pods-SaunaQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2H47C28B25;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SaunaQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +417,14 @@
 		};
 		0B2C7C482C12AD5900A1A593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204680882DD56E1D1C27F995 /* Pods-SaunaQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2H47C28B25;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SaunaQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
