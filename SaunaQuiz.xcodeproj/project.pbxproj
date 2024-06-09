@@ -21,6 +21,7 @@
 		0B6552D72C12E7EB00DA4BA5 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6552D62C12E7EB00DA4BA5 /* SelectLevelViewController.swift */; };
 		0B6552D92C12EB7500DA4BA5 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0B6552D82C12EB7500DA4BA5 /* quiz2.csv */; };
 		0B6552DB2C12EB9000DA4BA5 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0B6552DA2C12EB9000DA4BA5 /* quiz3.csv */; };
+		0BF37FF62C144D9600F0EEDD /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF37FF42C144D9600F0EEDD /* launchImageView.png */; };
 		4C4E8519FA19448B162AC9F5 /* Pods_SaunaQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4D807F327F0E101B4C05CD /* Pods_SaunaQuiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		0B6552D62C12E7EB00DA4BA5 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
 		0B6552D82C12EB7500DA4BA5 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		0B6552DA2C12EB9000DA4BA5 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		0BF37FF42C144D9600F0EEDD /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
 		204680882DD56E1D1C27F995 /* Pods-SaunaQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaunaQuiz.release.xcconfig"; path = "Target Support Files/Pods-SaunaQuiz/Pods-SaunaQuiz.release.xcconfig"; sourceTree = "<group>"; };
 		BD4A17613A3795E4AAA42B6E /* Pods-SaunaQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaunaQuiz.debug.xcconfig"; path = "Target Support Files/Pods-SaunaQuiz/Pods-SaunaQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 		BD4D807F327F0E101B4C05CD /* Pods_SaunaQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaunaQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +96,17 @@
 				0B2C7C432C12AD5900A1A593 /* Info.plist */,
 				0B6552D22C12DE1600DA4BA5 /* correct.png */,
 				0B6552D32C12DE1600DA4BA5 /* incorrect.png */,
+				0BF37FF52C144D9600F0EEDD /* launchImage */,
 			);
 			path = SaunaQuiz;
+			sourceTree = "<group>";
+		};
+		0BF37FF52C144D9600F0EEDD /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				0BF37FF42C144D9600F0EEDD /* launchImageView.png */,
+			);
+			path = launchImage;
 			sourceTree = "<group>";
 		};
 		9D414233976F9E0B7672D10F /* Frameworks */ = {
@@ -175,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF37FF62C144D9600F0EEDD /* launchImageView.png in Resources */,
 				0B6552D92C12EB7500DA4BA5 /* quiz2.csv in Resources */,
 				0B6552D42C12DE1600DA4BA5 /* correct.png in Resources */,
 				0B6552D52C12DE1600DA4BA5 /* incorrect.png in Resources */,
@@ -400,8 +412,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,8 +442,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
